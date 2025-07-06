@@ -41,31 +41,7 @@ Phonocardiogram-ML-Prototype/
 │   ├── merged_data.csv       # 🔗 Final merged & preprocessed dataset
 ├── performance/              # ✅ Saved model performance plots (CM, ROC, feature importance)
 ├── patient_plots/            # 🎨 Saved waveform, MFCC, spectrogram image
-
-## ✅ How to Use
-
-1️⃣ **Download Dataset**  
-Manually download `.wav` files from the dataset link above.
-
-2️⃣ **Organize Files**  
-Place `.wav` files inside your `training_data/` folder.
-
-3️⃣ **Run Scripts in Order**  
-- `01_extract_features.py`
-- `02_merge_clinical_data.py`
-- `03_preprocess_data.py`
-- `04_train_models.py`
-- `05_visualize_patient_signals.py`
-- `06_evaluate_performance.py`
-
-4️⃣ **Check Outputs**  
-- Extracted features: `heart_sounds_features.csv`
-- Merged data: `extract_df.csv`
-- Cleaned data: `preprocessed_df.csv`
-- Model metrics printed in console
-- Plots saved in `/Patient_Plots/` and `/performance/`
-
-
+---
 
 ## ⚙️ Notes
 
@@ -73,10 +49,5 @@ Place `.wav` files inside your `training_data/` folder.
 - Results can be improved with more advanced models and larger datasets.
 - Make sure paths are correct when running locally or in Colab.
 
-
-
-## ✨ Author
-
-**Mukesh** — Biomedical Engineering & ML Enthusiast.
-
+---
 
