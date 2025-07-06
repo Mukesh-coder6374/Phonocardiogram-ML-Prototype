@@ -43,11 +43,11 @@ Phonocardiogram-ML-Prototype/
 ├── patient_plots/            # 🎨 Saved waveform, MFCC, spectrogram image
 ---
 
-## ⚙️ Notes
+## ✅ Notes
 
-- This is a **prototype** for experimenting with ML on Phonocardiogram (PCG) signals.
-- Results can be improved with more advanced models and larger datasets.
-- Make sure paths are correct when running locally or in Colab.
+- This is a **prototype** for experimentation only.
+- Results can be improved with more data and advanced ML techniques.
+- Make sure file paths match your local or cloud environment.
+- Refer to the script order for running the full pipeline.
 
 ---
-
