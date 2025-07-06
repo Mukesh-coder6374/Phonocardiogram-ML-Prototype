@@ -23,28 +23,6 @@ A simple machine learning prototype for heart sound analysis using the **CIRCOR 
 - 📝 **Metadata:** Age, sex, height, weight, pregnancy status, outcome.
 
 ---
-##⚙️ Project Structure
-
-Phonocardiogram-ML-Prototype/
-│
-├── 01_extract_features.py
-├── 02_merge_clinical_data.py
-├── 03_preprocess_data.py
-├── 04_train_models.py
-├── 05_visualize_patient_signals.py
-├── 06_evaluate_performance.py
-├── README.md
-│
-├── data/
-│   ├── training_data/
-│   ├── metadata.csv
-│   ├── heart_sounds_features.csv
-│   ├── extract_df.csv
-│   ├── preprocessed_df.csv
-│
-├── performance/
-├── patient_plots/
----
 
 ## ✅ Notes
 
