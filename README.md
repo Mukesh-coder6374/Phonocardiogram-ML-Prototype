@@ -23,24 +23,27 @@ A simple machine learning prototype for heart sound analysis using the **CIRCOR 
 - 📝 **Metadata:** Age, sex, height, weight, pregnancy status, outcome.
 
 ---
+##⚙️ Project Structure
 
-## ⚙️ Project Structure
-
-```plaintext
 Phonocardiogram-ML-Prototype/
 │
-├── preprocessing.py          # 🧹 Data cleaning & preprocessing
-├── feature_extraction.py     # 🎵 Extracts MFCCs, chroma, spectral features, stats
-├── model_training.py         # 🤖 ML model training & evaluation (RF, XGBoost, Logistic)
-├── plots.py                  # 📊 Plots waveform, MFCC, spectrograms per patient
-├── README.md                 # 📚 Project overview & instructions
+├── 01_extract_features.py
+├── 02_merge_clinical_data.py
+├── 03_preprocess_data.py
+├── 04_train_models.py
+├── 05_visualize_patient_signals.py
+├── 06_evaluate_performance.py
+├── README.md
+│
 ├── data/
-│   ├── training_data/        # 🎙️ Raw .wav audio files
-│   ├── metadata.csv          # 🗂️ Original patient metadata
-│   ├── extracted_features.csv # 📑 Saved extracted features
-│   ├── merged_data.csv       # 🔗 Final merged & preprocessed dataset
-├── performance/              # ✅ Saved model performance plots (CM, ROC, feature importance)
-├── patient_plots/            # 🎨 Saved waveform, MFCC, spectrogram image
+│   ├── training_data/
+│   ├── metadata.csv
+│   ├── heart_sounds_features.csv
+│   ├── extract_df.csv
+│   ├── preprocessed_df.csv
+│
+├── performance/
+├── patient_plots/
 ---
 
 ## ✅ Notes
@@ -49,5 +52,11 @@ Phonocardiogram-ML-Prototype/
 - Results can be improved with more data and advanced ML techniques.
 - Make sure file paths match your local or cloud environment.
 - Refer to the script order for running the full pipeline.
-
 ---
+## 👤 Author
+
+**Mukesh**
+
+- 🎓 Biomedical Engineering Student  
+- 💻 Exploring Machine Learning for Biomedical Signals  
+- 📌 [LinkedIn](https://www.linkedin.com/in/mukesh1609)
