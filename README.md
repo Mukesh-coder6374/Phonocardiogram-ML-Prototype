@@ -41,7 +41,6 @@ Phonocardiogram-ML-Prototype/
 │   ├── merged_data.csv       # 🔗 Final merged & preprocessed dataset
 ├── performance/              # ✅ Saved model performance plots (CM, ROC, feature importance)
 ├── patient_plots/            # 🎨 Saved waveform, MFCC, spectrogram image
----
 
 ## ✅ How to Use
 
@@ -66,7 +65,7 @@ Place `.wav` files inside your `training_data/` folder.
 - Model metrics printed in console
 - Plots saved in `/Patient_Plots/` and `/performance/`
 
----
+
 
 ## ⚙️ Notes
 
@@ -74,10 +73,10 @@ Place `.wav` files inside your `training_data/` folder.
 - Results can be improved with more advanced models and larger datasets.
 - Make sure paths are correct when running locally or in Colab.
 
----
+
 
 ## ✨ Author
 
 **Mukesh** — Biomedical Engineering & ML Enthusiast.
 
----
+
